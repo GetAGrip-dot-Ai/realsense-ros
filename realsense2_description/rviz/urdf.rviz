@@ -73,7 +73,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        rs_ee:
+        realsense_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -116,7 +116,7 @@ Visualization Manager:
           Value: true
         camera_link:
           Value: true
-        rs_ee:
+        realsense_frame:
           Value: true
       Marker Alpha: 1
       Marker Scale: 0.10000000149011612
@@ -125,7 +125,7 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        rs_ee:
+        realsense_frame:
           camera_bottom_screw_frame:
             camera_link:
               camera_accel_frame:
@@ -180,7 +180,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: rs_ee
+    Fixed Frame: realsense_frame
     Frame Rate: 30
   Name: root
   Tools:
